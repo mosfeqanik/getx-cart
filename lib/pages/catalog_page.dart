@@ -1,5 +1,5 @@
-import 'package:cart_getx/pages/cartScreen.dart';
-import 'package:cart_getx/pages/catalogproductscreen.dart';
+import 'package:cart_getx/pages/cart_screen.dart';
+import 'package:cart_getx/pages/catalog_product_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
 import 'package:get/utils.dart';
@@ -9,7 +9,8 @@ class CatalogScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Catalog'),
+        title: const Text('Catalog'),
+        centerTitle: true,
       ),
       body: SafeArea(
         child: Column(
